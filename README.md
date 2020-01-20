@@ -1,7 +1,7 @@
 hello
 =====
 
-Dummy service that responds with an arbitrary message on an arbitrary TCP port.
+Dummy HTTP service that responds with a message.
 
 Environment variables
 ---------------------
