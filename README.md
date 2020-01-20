@@ -8,8 +8,10 @@ Environment variables
 
 * PORT
   - The port to listen on
-  - *Required*
+  - Optional, defaults to 8080
 
-* MESSAGE
-  - The message to return
-  - *Required*
+* ENDPOINTS
+  - Endpoint to message mapping
+  - Format: "endpoint1:message1,endpoint2:message2,etc"
+  - For example: "/:ok,/hello:world"
+  - Optional, defaults to "/:hello"
